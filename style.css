@@ -62,8 +62,57 @@ h1 {
   margin-top: 20px;
   display: flex;
 }
-
 .img-btn {
   margin-right: 10px;
   width: 16px;
+}
+/*----------------------------------service--------------------------------*/
+.box-service {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.title-service {
+  color: #2e2e2e;
+  font-size: 28px;
+  font-weight: bold;
+  margin-top: 52px;
+  margin-bottom: 7px;
+}
+.card-service {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.box-img {
+  background-color: #dd5555;
+  padding: 25px 32px;
+  border-radius: 50%;
+  width: 120px;
+  margin-bottom: -30px;
+}
+.content-service {
+  width: 358px;
+}
+.content-service {
+  font-size: 16px;
+  text-align: center;
+}
+/*------------------------responsive-----------------------------*/
+@media screen and (max-width: 400px) {
+  .lien-menu {
+    display: none;
+  }
+  .menu {
+    margin: 20px;
+  }
+  .box-btn-header {
+    flex-direction: column;
+    width: 112px;
+    align-items: center;
+    justify-content: center;
+    gap: 0;
+    margin: 0 auto;
+  }
 }
